@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Title</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />
+</head>
+
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__top">
+        <header class="header">
+  <div class="header__container container">
+    <a href="#" class="header__logo">Funiro.</a>
+    <nav class="header__nav">
+      <ul class="header__nav-list site-nav">
+        <li class="site-nav__item">
+          <a href="#" class="site-nav__link"
+            >Products <img src="img/arrow.svg" width="20" height="20" alt=""
+          /></a>
+          <ul class="site-nav__sub-items">
+            <li class="site-nav__item">
+              <a href="#" class="site-nav__link">Item 1</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="#" class="site-nav__link">Item 2</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="#" class="site-nav__link">Item 3</a>
+            </li>
+          </ul>
+        </li>
+        <li class="site-nav__item">
+          <a href="#" class="site-nav__link"
+            >Rooms <img src="img/arrow.svg" width="20" height="20" alt=""
+          /></a>
+        </li>
+        <li class="site-nav__item">
+          <a href="#" class="site-nav__link">Inspirations</a>
+        </li>
+      </ul>
+      <div class="header__nav-search search">
+        <button class="search__btn btn">
+          <span class="search__btn-icon"></span
+          ><span class="search__btn-text">Search</span>
+        </button>
+        <input
+          placeholder="Search for minimalist chair"
+          type="text"
+          class="search__input"
+        />
+        <button class="search__close-btn btn">
+          <span class="search__close-icon"></span>
+        </button>
+      </div>
+      <ul class="header__nav-list user-nav">
+        <li class="user-nav__item">
+          <a href="#" class="user-nav__link"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.9996 21.0542C-8 10 5.99999 -1.99997 11.9996 5.58809C18 -1.99997 32 10 11.9996 21.0542Z"
+                stroke="#262F56"
+                stroke-width="1.8"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="user-nav__item">
+          <a href="#" class="user-nav__link"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 2.5H2.65424C3.13263 2.5 3.37183 2.5 3.56628 2.58674C3.73771 2.66321 3.88415 2.78638 3.98886 2.94217C4.10763 3.11888 4.14862 3.35454 4.23058 3.82585L4.6087 6M4.6087 6L5.49173 11.0774C5.67091 12.1077 5.7605 12.6228 6.02583 12.9939C6.25945 13.3207 6.58606 13.5695 6.96311 13.708C7.39133 13.8654 7.91176 13.815 8.95264 13.7143L18.614 12.7793C19.6298 12.681 20.1378 12.6318 20.5221 12.4033C20.8653 12.1993 21.1395 11.8972 21.3095 11.536C21.5 11.1314 21.5 10.6211 21.5 9.6005V9.6005C21.5 8.51582 21.5 7.97348 21.2922 7.55394C21.1068 7.17971 20.809 6.8729 20.4404 6.67654C20.0272 6.4564 19.4851 6.44036 18.4009 6.40826L4.6087 6Z"
+                stroke="#262F56"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <circle
+                cx="8.5"
+                cy="19"
+                r="2"
+                stroke="#262F56"
+                stroke-width="1.8"
+              />
+              <circle
+                cx="18"
+                cy="19"
+                r="2"
+                stroke="#262F56"
+                stroke-width="1.8"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="user-nav__item">
+          <a href="#" class="user-nav__link"
+            ><div class="user-nav__img">
+              <img src="img/user.png" width="40" height="40" alt="" /></div
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <span></span>
+    </div>
+  </div>
+</header>
+
+        <section class="top">
+          <div class="top__container container">
+            <div class="top__cart">
+              <h1 class="top__header">High-Quality Furniture Just For You</h1>
+              <p class="top__text">
+                Our furniture is made from selected and best quality materials
+                that are suitable for your dream home
+              </p>
+              <a href="#" class="top__btn btn">Shop Now</a>
+            </div>
+            <div class="swiper-container">
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="top__slide-img">
+                    <img src="img/1.png" alt="" />
+                    <div class="top__slide-cart">
+                      <h2 class="top__slide-cart-header">Bohauss</h2>
+                      <p class="top__slide-cart-text">Luxury big sofa 2-seat</p>
+                      <div class="top__slide-cart-bottom">
+                        <span class="top__slide-cart-price">Rp 17.000.000</span>
+                        <a href="#" class="top__slide-cart-link"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top__slide-img">
+                    <img src="img/2.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top__slide-img">
+                    <img src="img/3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <main class="page">
+        <section class="features">
+          <div class="features__container container">
+            <ul class="features__list">
+              <li class="features__item">
+                <img src="img/1.svg" class="features__img"></img>
+                <div>
+                  <div class="features__header">High Quality</div>
+                  <p class="features__text">crafted from top materials</p>
+                </div>
+              </li>
+              <li class="features__item">
+                <img src="img/2.svg" class="features__img"></img>
+                <div>
+                  <div class="features__header">Warrany Protection</div>
+                  <p class="features__text">Over 2 years</p>
+                </div>
+              </li>
+              <li class="features__item">
+                <img src="img/3.svg" class="features__img"></img>
+                <div>
+                  <div class="features__header">Free Shipping</div>
+                  <p class="features__text">Order over 150 $</p>
+                </div>
+              </li>
+              <li class="features__item">
+                <img src="img/4.svg" class="features__img"></img>
+                <div>
+                  <div class="features__header">24 / 7 Support</div>
+                  <p class="features__text">Dedicated support</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="products">
+          <div class="products__container container">
+            <h2 class="products__header">Our Products</h2>
+            <ul class="products__list">
+              <li class="products__item product">
+                <div class="product__img"><img src="img/p1.png" alt=""></div>
+                <div class="products__description">
+                  <h3 class="product__header">Syltherine</h3>
+                  <p class="products__text">Stylish cafe chair</p>
+                  <div class="product__prices">
+                    <span class="product__price-main">Rp 2.500.000</span>
+                    <span class="product__price-old">Rp 3.500.000</span>
+                  </div>
+                </div>
+                <div class="product__bg bg">
+                  <div class="bg__container">
+                    <button class="bg__btn">Add to cart</button>
+                    <ul class="bg__links">
+                      <li><a href="#" class="bg__link"><img src="img/5.svg" class="bg__link-icon"></img>Share</a></li>
+                      <li><a href="#" class="bg__link"><img src="img/6.svg" class="bg__link-icon"></img>Like</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__label product__label--red">-30%</div>
+              </li>
+              <li class="products__item product">
+                <div class="product__img"><img src="img/p1.png" alt=""></div>
+                <div class="products__description">
+                  <h3 class="product__header">Syltherine</h3>
+                  <p class="products__text">Stylish cafe chair</p>
+                  <div class="product__prices">
+                    <span class="product__price-main">Rp 2.500.000</span>
+                    <span class="product__price-old">Rp 3.500.000</span>
+                  </div>
+                </div>
+                <div class="product__bg bg">
+                  <div class="bg__container">
+                    <button class="bg__btn">Add to cart</button>
+                    <ul class="bg__links">
+                      <li><a href="#" class="bg__link"><img src="img/5.svg" class="bg__link-icon"></img>Share</a></li>
+                      <li><a href="#" class="bg__link"><img src="img/6.svg" class="bg__link-icon"></img>Like</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__label product__label--green">-30%</div>
+              </li>
+              <li class="products__item product">
+                <div class="product__img"><img src="img/p1.png" alt=""></div>
+                <div class="products__description">
+                  <h3 class="product__header">Syltherine</h3>
+                  <p class="products__text">Stylish cafe chair</p>
+                  <div class="product__prices">
+                    <span class="product__price-main">Rp 2.500.000</span>
+                    <span class="product__price-old">Rp 3.500.000</span>
+                  </div>
+                </div>
+                <div class="product__bg bg">
+                  <div class="bg__container">
+                    <button class="bg__btn">Add to cart</button>
+                    <ul class="bg__links">
+                      <li><a href="#" class="bg__link"><img src="img/5.svg" class="bg__link-icon"></img>Share</a></li>
+                      <li><a href="#" class="bg__link"><img src="img/6.svg" class="bg__link-icon"></img>Like</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__label product__label--green">-30%</div>
+              </li>
+              <li class="products__item product">
+                <div class="product__img"><img src="img/p1.png" alt=""></div>
+                <div class="products__description">
+                  <h3 class="product__header">Syltherine</h3>
+                  <p class="products__text">Stylish cafe lorem   chair lorem</p>
+                  <div class="product__prices">
+                    <span class="product__price-main">Rp 2.500.000</span>
+                    <span class="product__price-old">Rp 3.500.000</span>
+                  </div>
+                </div>
+                <div class="product__bg bg">
+                  <div class="bg__container">
+                    <button class="bg__btn">Add to cart</button>
+                    <ul class="bg__links">
+                      <li><a href="#" class="bg__link"><img src="img/5.svg" class="bg__link-icon"></img>Share</a></li>
+                      <li><a href="#" class="bg__link"><img src="img/6.svg" class="bg__link-icon"></img>Like</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__label product__label--green">-30%</div>
+              </li>
+              <li class="products__item product">
+                <div class="product__img"><img src="img/p1.png" alt=""></div>
+                <div class="products__description">
+                  <h3 class="product__header">Syltherine</h3>
+                  <p class="products__text">Stylish cafe chair</p>
+                  <div class="product__prices">
+                    <span class="product__price-main">Rp 2.500.000</span>
+                    <span class="product__price-old">Rp 3.500.000</span>
+                  </div>
+                </div>
+                <div class="product__bg bg">
+                  <div class="bg__container">
+                    <button class="bg__btn">Add to cart</button>
+                    <ul class="bg__links">
+                      <li><a href="#" class="bg__link"><img src="img/5.svg" class="bg__link-icon"></img>Share</a></li>
+                      <li><a href="#" class="bg__link"><img src="img/6.svg" class="bg__link-icon"></img>Like</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__label product__label--green">-30%</div>
+              </li>
+            </ul>
+            <button class="product__btn btn">Show More</button>
+          </div>
+        </section>
+        <section class="rooms">
+          <div class="rooms__dummy"></div>
+          <div class="rooms__container container">
+            <div class="rooms__left">
+              <h2 class="rooms__header">50+ Beautiful rooms 
+inspiration</h2>
+              <p class="rooms__text">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+              <button class="rooms__btn btn">Explore More</button>
+            </div>
+            <div class="rooms__right">
+              <div class="rooms__slider">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><div class="rooms__slide"><img src="img/4.png" alt="">
+                      <div class="rooms__cart">
+                        <p class="rooms__cart-text">01<span class="rooms__cart-line"></span>Bed Room</p>
+                        <h3 class="rooms__cart-header">Inner Peace</h3>
+                        <a href="#" class="rooms__cart-link"><svg width="20" height="14" viewBox="0 0 20 14"  xmlns="http://www.w3.org/2000/svg">
+<path d="M19 7H1M19 7L13 1M19 7L13 13" stroke="white"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+                    </div></div></div>
+                    <div class="swiper-slide"><div class="rooms__slide"><img src="img/5.png" alt=""></div></div>
+                    <div class="swiper-slide"><div class="rooms__slide"><img src="img/6.png" alt=""></div></div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+  <div class="footer__container container">
+    <div class="footer__about">
+      <h4 class="footer__header">Funiro.</h4>
+      <p class="footer__text">
+        Worldwide furniture store since 2020. We sell over 1000+ branded
+        products on our website
+      </p>
+      <p class="footer__location">Sawojajar Malang, Indonesia</p>
+      <a href="tel:+6289 456 3455" class="footer__tel">+6289 456 3455</a>
+      <a href="#" class="footer__site">www.funiro.com</a>
+    </div>
+    <div class="footer__item">
+      <h4 class="footer__header">Menu</h4>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__link">Products</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__link">Rooms</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__link">Inspirations</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__link">About Us</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__link">Terms & Policy</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__item">
+      <h4 class="footer__header">Account</h4>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__link">My Account</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__link">Checkout</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__link">My Cart</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__link">My catalog</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__item">
+      <h4 class="footer__header">Stay Connected</h4>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__link">Facebook</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__link">Instagram</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__link">Twitter</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__item">
+      <h4 class="footer__header">Stay Updated</h4>
+      <div class="footer__input-wrap">
+        <input
+          type="text"
+          placeholder="Enter your email"
+          class="footer__input"
+        />
+        <button class="footer__btn"></button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
